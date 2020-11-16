@@ -9,8 +9,8 @@ export const Alert = () => {
     <CSSTransition
         in={alert.visible}
         timeout={{
-            enter: 500,
-            exit: 350
+            enter: 800,
+            exit: 650
         }}
         classNames={'alert'}
         mountOnEnter
